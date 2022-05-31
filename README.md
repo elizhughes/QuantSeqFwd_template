@@ -65,7 +65,7 @@ Then edit the parameters in `quantseqfwd.nf` appropriate to your analysis:
 Then run the command:
 
 ```
-nextflow run src/quantseqfwd.nf -with-dag flowchart.png -with-report nextflow_report.html
+nextflow run quantseqfwd.nf -with-dag flowchart.png -with-report nextflow_report.html
 ```
 
 The options `-with-dag` and `-with-report` are just to tell you a little more about the output, they are not strictly needed in order to run.
