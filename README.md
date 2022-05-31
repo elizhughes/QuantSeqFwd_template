@@ -34,6 +34,7 @@ gzip -dkc data_RENAME/R1_001.fastq.gz \
 
 This is a nextflow (DSL 1.0) pipeline that does read QC, trimming, alignment, and counting per transcript.
 
+TO ADD: Somethign about the package versions required, and conda.
 
 ## Before starting, prepare your annotation
 
