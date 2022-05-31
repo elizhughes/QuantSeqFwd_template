@@ -10,12 +10,12 @@ EDIT THIS README FILE to describe the dataset that you are analysing
 # Contents
 
 - quantseqfwd.nf - nextflow script for read processing and counting
-- Rmd - directory R markdown scripts for data processing after the 
+- Rmd - directory for R markdown scripts and further data analysis after read processing
 - input - directory for input
-  - input/annotation - genome or transcriptome annotation used for read alignment and counting.
+  - input/annotation - genome or transcriptome annotation used for read alignment and counting
   - input/experiment - other input files including sample sheet
 - results - directory for output data and results
-    - results/counts - count data and analyses of those.
+    - results/counts - count data and analyses of those
     - results/xxx - create specific subdirectories for other kinds of results
 
 
