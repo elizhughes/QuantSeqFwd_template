@@ -26,9 +26,11 @@ It is written in nextflow (DSL 1.0), see
 
 ## Install software dependencies
 
-We tested package installation using conda and bioconda, see [bioconda installation instructions](https://bioconda.github.io/user/install.html).
+We tested package installation using miniconda and bioconda, see:
+- [miniconda installation instructions[(https://docs.conda.io/en/latest/miniconda.html)
+- [bioconda installation instructions](https://bioconda.github.io/user/install.html).
 
-Once you have conda installed, create a conda environment called `QS2022` by running the command:
+Once you have bioconda installed, create a conda environment called `QS2022` by running the command:
 
 ```
 conda create -n QS2022 nextflow=21.10.6 cutadapt=3.7 hisat2=2.2.1 samtools=1.15 fastqc=0.11.9 multiqc=1.12-0 bedtools=2.30.0 subread=2.0.1
