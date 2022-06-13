@@ -22,7 +22,7 @@ EDIT THIS README FILE to describe the dataset that you are analysing
 # How to run the read processing pipeline
 
 This is a read processing pipeline that does read QC, trimming, alignment, and counting per transcript.
-It is written in nextflow (DSL 1.0), see 
+It is written in nextflow (DSL 1.0), see https://www.nextflow.io/.
 
 ## Install software dependencies
 
