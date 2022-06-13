@@ -31,7 +31,7 @@ We tested package installation using conda and bioconda, see [bioconda installat
 Once you have conda installed, create a conda environment called `QS2022` by running the command:
 
 ```
-conda create -n QS2022 nextflow=21.10 cutadapt=3.7 hisat2=2.2.1 samtools=1.15 fastqc=0.11.9 multiqc=1.12-0 bedtools=2.30.0 subread=2.0.1
+conda create -n QS2022 nextflow=21.10.6 cutadapt=3.7 hisat2=2.2.1 samtools=1.15 fastqc=0.11.9 multiqc=1.12-0 bedtools=2.30.0 subread=2.0.1
 ```
 
 These package versions run the pipeline as of June 2022. Others might break it or require troubleshooting/upgrading.
