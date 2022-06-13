@@ -122,4 +122,36 @@ TBA
 
 ## Check the reproducibility of results using the R markdown file
 
-TBA
+### Install R & RStudio
+
+https://www.rstudio.com/products/rstudio/download/
+
+Then install packages. Either use RStudio GUI or run:
+
+```r
+install.packages("tidyverse","cowplot","GGally","here")
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("biobroom","DESeq2")
+```
+
+More info at Jeffrey Leek's Data Scientist Toolbox:
+https://jtleek.com/modules/01_DataScientistToolbox/02_09_installingRPackages/#5
+
+### Rename the R project file
+
+Give the file `QSFwd_RENAME.Rproj` a name that describes your actual project.
+You can then return to the project by opening that file.
+
+Then open this R project file in RStudio
+
+### Quality control of read counts wiht scatter plots and PCA
+
+From RStudio, open the file `Rmd/QC_PCA.Rmd`.
+Edit the parts needed to describe your dataset (marked by `EDIT` or `RENAME`).
+
+Load the count data using the code present then begin to troubleshoot data loading and visualisation.
+
+The goal is to have everything running smoothly up to the point where you can press "knit", and a complete documented analysis all runs in one go, with informative figures, output, and thoughts.
+
