@@ -1,7 +1,8 @@
 
 /*
-Template quant-seq fwd analysis pipeline
+Template quant-seq fwd analysis pipeline, written in nextflow DSL 1
 */
+nextflow.enable.dsl = 1 
 
 /*
 Define dataset-specific input parameters.

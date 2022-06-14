@@ -2,4 +2,8 @@
 
 R markdown files for anallysis following read processing.
 
-TO ADD
+## QC_PCA.Rmd
+
+Quality Control by Scatter plots and PCA.
+
+## MORE TO ADD
